@@ -1,4 +1,10 @@
 package Models
 
-class InfoJogo {
+import DataClasses.InfoApiShark
+
+data class InfoJogo(val info: InfoApiShark) {
+
+    override fun toString(): String {
+        return info.toString()
+    }
 }

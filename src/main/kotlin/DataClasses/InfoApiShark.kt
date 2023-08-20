@@ -1,3 +1,3 @@
 package DataClasses
 
-data class InfoApiShark()
+data class InfoApiShark(val title: String, val thumb: String)
